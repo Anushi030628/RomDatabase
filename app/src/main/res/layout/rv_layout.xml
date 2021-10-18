@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/purple_200">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_margin="10dp"
+        android:outlineAmbientShadowColor="@color/black">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/name_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:padding="10dp"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:id="@+id/number_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="Number"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+           <Button
+               android:id="@+id/btn_updateId"
+               android:layout_width="250dp"
+               android:layout_height="wrap_content"
+               android:text="Update"
+               android:gravity="center_horizontal"
+               android:layout_gravity="center"
+               android:layout_margin="10dp"
+               android:textColor="@color/black"
+               android:background="@drawable/button_black"
+               android:shadowColor="@color/black"
+
+               android:textSize="25dp"/>
+
+            <Button
+                android:id="@+id/btn_deleteId"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:text="Delete"
+                android:textColor="@color/black"
+                android:background="@drawable/button_black"
+                android:shadowColor="@color/black"
+                android:textSize="25dp"/>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</LinearLayout>
